@@ -2,123 +2,229 @@
 <html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Plexy</title>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Plexy</title>
 
-    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="./style.css">
+	<link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
 
-    <nav class="navbar navbar-expand-lg" id="menu-principal">
-        <div class="container">
+	<nav class="navbar navbar-expand-lg" id="menu-principal">
+		<div class="container">
 
-            <a class="navbar-brand" href="#"><img src="./assets/img/logo.png" alt="Plexy"></a>
+			<a class="navbar-brand" href="#"><img src="./assets/img/logo.png" alt="Plexy"></a>
 
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbar-principal" aria-controls="navbar-principal" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-principal"
+				aria-controls="navbar-principal" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
 
-            <div class="collapse navbar-collapse" id="navbar-principal">
-                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link" href="#como-funciona">Como funciona</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#contato">Contato</a>
-                    </li>
-                    <li class="nav-item" id="escolha-plano">
-                        <a class="nav-link" href="#planos">Escolha um Plano</a>
-                    </li>
-                    
-                </ul>
-               
-            </div>
+			<div class="collapse navbar-collapse" id="navbar-principal">
+				<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<a class="nav-link" href="#como-funciona">Como funciona</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#contato">Contato</a>
+					</li>
+					<li class="nav-item" id="escolha-plano">
+						<a class="nav-link" href="#planos">Escolha um Plano</a>
+					</li>
 
-        </div>
-    </nav>
+				</ul>
 
-    <section id="superbanner">
-        <figure class="background">
-            <img class="img-fluid w-100" src="./assets/img/background-superbanner.png" alt="superbanner">
-        </figure>
-        <div class="conteudo">
-            <h1>Sua ideia na internet em <br> até 5 dias</h1>
-            <h2>Domínio, endereço de email e design <br> personalizados.</h2>
+			</div>
 
-            <a class="btn-superbanner" href="#como-funciona">Como funciona?</a>
-        </div>
-    </section>
+		</div>
+	</nav>
 
-    <section id="como-funciona">
-        <h1>Como funciona</h1>
-        <div class="container">
+	<section id="superbanner">
+		<figure class="background">
+			<img class="img-fluid w-100" src="./assets/img/background-superbanner.png" alt="superbanner">
+		</figure>
+		<div class="conteudo">
+			<h1>Sua ideia na internet em <br> até 5 dias</h1>
+			<h2>Domínio, endereço de email e design <br> personalizados.</h2>
 
-        </div>
-    </section>
+			<a class="btn-superbanner" href="#como-funciona">Como funciona?</a>
+		</div>
+	</section>
 
-    <section id="planos">
-        <h1>Escolha seu Plano</h1>
+	<section id="como-funciona">
+		<h1 class="titulo-secao">Como funciona</h1>
+		
+			<div class="container">
+			
+				<!--first section-->
+				<div class="row align-items-center how-it-works">
+					<div class="col-2 text-center bottom">
+						<Figure class="comofunciona-icon">
+							<img src="./assets/img/icon-puzze.png" alt="Plano">
+						</Figure>
+					</div>
+					<div class="col-6">
+						<h5>Você escolhe e adquire o plano</h5>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor gravida aliquam. Morbi orci urna,
+							iaculis in ligula et, posuere interdum lectus.</p>
+					</div>
+				</div>
 
-        <div class="container">
-            <div class="row">
-                <div class="col-3">
+				<!--path between 1-2-->
+				<div class="row timeline">
+					<div class="col-2">
+						<div class="corner top-right"></div>
+					</div>
+					<div class="col-8">
+						<hr />
+					</div>
+					<div class="col-2">
+						<div class="corner left-bottom"></div>
+					</div>
+				</div>
 
-                </div>
-            </div>
-        </div>
-    </section>
+				<!--second section-->
+				<div class="row align-items-center justify-content-end how-it-works">
+					<div class="col-6">
+						<h5 class="text-end">Using Bootstrap</h5>
+						<p class="text-end">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor gravida aliquam. Morbi orci urna,
+							iaculis in ligula et, posuere interdum lectus.</p>
+					</div>
+					<div class="col-2 text-center full">
+						<div class="circle">2</div>
+					</div>
+				</div>
 
-    <section id="contato">
-        <h1>Contato</h1>
-        <form action="">
-            <div class="row gy-4 gx-4">
-                <div class="form-group col-6">
-                    <label for="nome">Nome</label>
-                    <input type="text" id="nome" class="form-control">
-                </div>
-                <div class="form-group col-6">
-                    <label for="email">E-mail</label>
-                    <input type="email" id="email" class="form-control">
-                </div>
-                <div class="form-group col-6">
-                    <label for="telefone">Telefone</label>
-                    <input type="text" id="telefone" class="form-control">
-                </div>
-                <div class="form-group col-6">
-                    <label for="assunto">Assunto</label>
-                    <input type="text" id="assunto" class="form-control">
-                </div>
-                <div class="form-group col-12">
-                    <label for="mensagem">Mensagem</label>
-                    <textarea id="mensagem" class="form-control"></textarea>
-                </div>
-            </div>
+				<!--path between 2-3-->
+				<div class="row timeline">
+					<div class="col-2">
+						<div class="corner right-bottom"></div>
+					</div>
+					<div class="col-8">
+						<hr />
+					</div>
+					<div class="col-2">
+						<div class="corner top-left"></div>
+					</div>
+				</div>
 
-        </form>
-    </section>
+				<!--third section-->
+				<div class="row align-items-center how-it-works">
+					<div class="col-2 text-center top">
+						<div class="circle">3</div>
+					</div>
+					<div class="col-6">
+						<h5>Now with Pug and Sass</h5>
+						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed porttitor gravida aliquam. Morbi orci urna,
+							iaculis in ligula et, posuere interdum lectus.</p>
+					</div>
+				</div>
+			</div>
+		
+	</section>
 
-    <footer>
-        <div class="container">
-            <div class="row align-items-center justify-content-between">
-                <div class="col-auto">
-                    <p>Copyright © 2022 Plexy. Todos os direitos reservados.</p>
-                </div>
-                <div class="col-auto">
-                    <figure>
-                        <img src="./assets/img/logo-footer.png" alt="Plexy">
-                    </figure>
-                </div>
-            </div>
-        </div>
-    </footer>
+	<section id="planos">
+		<h1 class="titulo-secao">Escolha seu Plano</h1>
 
-    <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+		<div class="container">
+			<div class="row gx-3 gy-3 justify-content-center">
+				<div class="col-lg-4 col-md-6 col-12">
+					<article class="plano">
+						<header>
+							<h1>Essencial</h1>
+						</header>
+						<section class="conteudo">
+							<h2>Para criadores de conteúdo</h2>
+
+							<p>Assinatura: <br><span>R$ 37,00</span></p>
+							<p>Construção: <br> A partir de <span>R$ 37,00</span></p>
+
+							<a href="#" class="plano-button">Quero</a>
+						</section>
+					</article>
+				</div>
+				<div class="col-lg-4 col-md-6 col-12">
+					<article class="plano">
+						<header>
+							<h1>Essencial</h1>
+						</header>
+						<section class="conteudo">
+							<h2>Para criadores de conteúdo</h2>
+
+							<p>Assinatura: <br><span>R$ 37,00</span></p>
+							<p>Construção: <br> A partir de <span>R$ 37,00</span></p>
+
+							<a href="#" class="plano-button">Quero</a>
+						</section>
+					</article>
+				</div>
+				<div class="col-lg-4 col-md-6 col-12">
+					<article class="plano">
+						<header>
+							<h1>Essencial</h1>
+						</header>
+						<section class="conteudo">
+							<h2>Para criadores de conteúdo</h2>
+
+							<p>Assinatura: <br><span>R$ 37,00</span></p>
+							<p>Construção: <br> A partir de <span>R$ 37,00</span></p>
+
+							<a href="#" class="plano-button">Quero</a>
+						</section>
+					</article>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="contato">
+		<h1>Contato</h1>
+		<form action="">
+			<div class="row gy-4 gx-4">
+				<div class="form-group col-6">
+					<label for="nome">Nome</label>
+					<input type="text" id="nome" class="form-control">
+				</div>
+				<div class="form-group col-6">
+					<label for="email">E-mail</label>
+					<input type="email" id="email" class="form-control">
+				</div>
+				<div class="form-group col-6">
+					<label for="telefone">Telefone</label>
+					<input type="text" id="telefone" class="form-control">
+				</div>
+				<div class="form-group col-6">
+					<label for="assunto">Assunto</label>
+					<input type="text" id="assunto" class="form-control">
+				</div>
+				<div class="form-group col-12">
+					<label for="mensagem">Mensagem</label>
+					<textarea id="mensagem" class="form-control"></textarea>
+				</div>
+			</div>
+
+		</form>
+	</section>
+
+	<footer>
+		<div class="container">
+			<div class="row align-items-center justify-content-between">
+				<div class="col-auto">
+					<p>Copyright © 2022 Plexy. Todos os direitos reservados.</p>
+				</div>
+				<div class="col-auto">
+					<figure>
+						<img src="./assets/img/logo-footer.png" alt="Plexy">
+					</figure>
+				</div>
+			</div>
+		</div>
+	</footer>
+
+	<script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
 </body>
 
